@@ -1,0 +1,56 @@
+.container {
+    margin:0 auto;
+    max-width: 430px;
+    width: 940px;
+    position: relative;
+    font-family: "Gilroy-light";
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #363636;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #262626;
+}
+
+.accordion {
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-item--active .accordion-item__trigger span{
+    transform: rotate(-90deg);
+}
+
+.accordion-item--active .accordion-item__content {
+    display: flex;
+    animation: slow 1s ease-in-out;
+}
+
+.accordion-item__trigger {
+    padding: 12px;
+    padding-left: 0;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-item__content {
+    padding: 10px;
+    border-top: none;
+    display: none;
+    font-size: 16px;
+    padding-left: 30px;
+    position: relative;
+}
+
+
+  
+  
+
+  

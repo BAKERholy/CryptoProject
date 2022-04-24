@@ -1,0 +1,52 @@
+.page-header {
+  background-color: #0ff;
+}
+
+nav {
+  align-items: center;
+  padding: 10px 140px 10px 25px;
+  display: flex;
+}
+
+.nav__list {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav .nav__toggle {
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+  z-index: 2;
+  background: url("buttonMenu.6c1caf46.svg") 0 0 no-repeat;
+  border: none;
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+
+.nav__toggle--v {
+  display: block;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list__item {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.nav-list__link:hover {
+  color: #828282;
+}
+
+.nav__block {
+  display: block;
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */
